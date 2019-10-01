@@ -1,0 +1,27 @@
+<!--pages/edit/edit.wxml-->
+
+
+<view class='edit-main'>
+    <view class='edit-img'>
+        <view wx:for="{{imgArr}}" wx:key="{{index}}" bindlongpress='deleteImage' data-index="{{index}}">
+            <image src='{{item}}' mode='aspectFill' />
+        </view>
+        <view class='iconfont icon-plus' catchtap='chooseImage' style='display:{{hideAdd?"none":"block"}}'></view>
+    </view>
+</view>
+<view class='edit-footer'>
+    <view class='footer-row'>
+    <loading hidden="{{loadingHidden}}">
+        上传中...
+    </loading>
+      <button class='btn1' bindtap='postData'>
+    <image class='btnImg' src='../../images/upload.png'></image>
+    <view>上传图片</view>
+ </button>
+    </view>
+</view>
+
+
+<view class='copyright'>
+Copyright © 四川大学 机器智能实验室
+</view>

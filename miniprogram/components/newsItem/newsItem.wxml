@@ -1,0 +1,8 @@
+<!--components/newsItem.wxml-->
+<view class='container'>
+  <image src="../../static/img/account.png" class='avatar'></image>
+  <view class='sub_container'>
+    <text>title</text>
+    <view>content</view>
+  </view>
+</view>
