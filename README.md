@@ -1,8 +1,9 @@
 # Crop-Recognition-Application(Completed in May 2019)
-Upload photos to check if they are crops. If it is a crop, then judge the type of crop and the type of disease.
+Upload photos to check if they are crops. If it is a crop, then the server judges the type of crop and the type of disease.
 
 # Method
 Server: Django Framework 
+
 App: WeChat Mini Program
 
 # Implement Detail
