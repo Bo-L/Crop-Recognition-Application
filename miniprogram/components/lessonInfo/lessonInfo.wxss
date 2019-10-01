@@ -1,0 +1,138 @@
+/* components/lessonInfo/lessonInfo.wxss */
+.wx-lesson-info{
+  background: #ffffff;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 0 30rpx 20rpx;
+  font-size: 24rpx;
+  color: #a6a6a6;
+  border-radius: 10rpx;
+  position: relative;
+  
+}
+.wx-lesson-info .lesson-time{
+  height: 90rpx;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.time-icon{
+  width: 24rpx;
+  height: 24rpx;
+  margin-right: 10rpx;
+}
+.lesson-time text{
+  font-size: 28rpx;
+  color: #333333;
+}
+.lesson-time text.week{
+    padding: 0 16rpx 0 24rpx;
+}
+.my-lesson-time{
+  height: 76rpx;
+  margin-bottom: 28rpx;
+  box-sizing: border-box;
+  border-bottom: 1px solid #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  font-size: 28rpx;
+  padding-right: 20rpx;
+}
+.my-lesson-time view{
+  display: flex;
+  align-items: center;
+}
+.my-lesson-time .title-icon{
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
+  background: blue;
+  margin-right: 10rpx;
+}
+.my-lesson-time .yellow{
+  margin-left: 10rpx;
+}
+.wx-lesson-info .lesson-info{
+  height: 128rpx;
+}
+.wx-lesson-info .lesson-info .person-info{
+  display: flex;
+  height: 100%;
+}
+.wx-lesson-info .lesson-info .head{
+  width: 200rpx;
+}
+.wx-lesson-info .lesson-info .person-head{
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  background: #cccccc;
+  margin-left: 40rpx;
+  margin-top: 15rpx;
+}
+.noPlant{
+  height: 100%;
+  width: 50%;
+  font-size: 28rpx;
+  color: #333333;
+  margin-top: 43rpx;
+}
+.person{
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.person .top{
+  font-size: 28rpx;
+  color: #333333;
+  line-height: 28rpx;
+  padding-top: 6rpx;
+}
+.person .middle{
+  display: -webkit-box;     
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;           
+  -webkit-box-orient: vertical;  
+  -webkit-line-clamp: 1;   
+}
+
+
+.person .bottom{
+  color: #ff9d60;
+  display: flex;
+}
+.person .bottom text{
+  height: 30rpx;
+  line-height: 26rpx;
+  padding: 0 10rpx;
+  display: inline-block;
+  border: 1px solid #ff9d60;
+  box-sizing: border-box;
+  border-radius: 20rpx;
+  margin-right: 10rpx;
+}
+.btn-tack{
+  width: 120rpx;
+  height: 50rpx;
+  position: absolute;
+  right: 20rpx;
+  bottom: 30rpx;
+  background: linear-gradient(to right, #ff4342 , #ff6911);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #ffffff;
+  border-radius: 50rpx;
+  font-size: 28rpx;
+}
+.btn-tack image{
+  width: 20rpx;
+  height: 20rpx;
+  margin-right: 6rpx;
+}
+.yellow{
+  color: #ff9d60;
+}
