@@ -12,8 +12,8 @@ In server, I use the pre-trained ResNet50V2 model to classify the type of crop d
 
 # Result 
 
-![Image text](https://github.com/Bo-L/Crop-Recognition-Application/tree/master/pictures/p1.jpg)  
-![Image text](https://github.com/Bo-L/Crop-Recognition-Application/tree/master/pictures/p2.jpg)  
-![Image text](https://github.com/Bo-L/Crop-Recognition-Application/tree/master/pictures/p3.jpg)  
-![Image text](https://github.com/Bo-L/Crop-Recognition-Application/tree/master/pictures/p4.jpg)  
-![Image text](https://github.com/Bo-L/Crop-Recognition-Application/tree/master/pictures/p5.jpg)  
+![Image text](https://raw.githubusercontent.com/Bo-L/Crop-Recognition-Application/master/pictures/p1.jpg)  
+![Image text](https://raw.githubusercontent.com/Bo-L/Crop-Recognition-Application/master/pictures/p2.jpg)
+![Image text](https://raw.githubusercontent.com/Bo-L/Crop-Recognition-Application/master/pictures/p3.jpg)
+![Image text](https://raw.githubusercontent.com/Bo-L/Crop-Recognition-Application/master/pictures/p4.jpg)
+![Image text](https://raw.githubusercontent.com/Bo-L/Crop-Recognition-Application/master/pictures/p5.jpg)
